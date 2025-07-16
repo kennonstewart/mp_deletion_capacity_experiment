@@ -2,9 +2,7 @@
 
 ### 🟠 Prompt for RQ2 – Deletion Capacity
 
-```text
-Create a GitHub repo `memory-pair-del-cap` that reproduces
-this experiment:
+Reproduce this experiment:
 
   “How many deletion requests (m) can a Memory-Pair model
    honour before retraining, compared with Sekhari-Newton and
@@ -17,7 +15,7 @@ Tech stack
 
 Datasets & Streams
 ------------------
-* Rotating-MNIST stream (same download helper as RQ1).
+* Rotating-MNIST stream
 
 Algorithms
 ----------
@@ -81,3 +79,4 @@ Key points
 4. README lists exact commands + expected commit message pattern.
 
 Do **not** touch files outside  experiments/sublinear_regret/.
+
