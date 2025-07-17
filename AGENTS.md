@@ -1,13 +1,9 @@
----
 
 ### 🟠 Prompt for RQ2 – Deletion Capacity
-
 Reproduce this experiment:
-
   “How many deletion requests (m) can a Memory-Pair model
    honour before retraining, compared with Sekhari-Newton and
    Qiao-HessianFree baselines?”
-
 Tech stack
 ----------
 • Python 3.10, `pip` + `requirements.txt`  
@@ -77,6 +73,3 @@ Key points
      • `git add results/*.csv results/*.png`
      • `git commit -m "EXP:sublinear_regret <dataset>-<stream>-<algo> <hash>"`
 4. README lists exact commands + expected commit message pattern.
-
-Do **not** touch files outside  experiments/sublinear_regret/.
-
